@@ -128,24 +128,50 @@
   }
   @media (max-width: 768.9px){
     .comissoes .imagem-dir img{
-        width: 301px;
-        height: 224px;
+        width: 267px;
+        height: 198px;
+        border-radius: 30px;
     }
     .comissoes .imagem-esq img{
-        width: 301px;
-        height: 224px;
+        width: 267px;
+        height: 198px;
+        border-radius: 30px;
     }
     .comissoes .texto-esq h2{
-        font-size: 40px;
+        font-size: 35px;
     }
     .comissoes .texto-dir h2{
-        font-size: 40px;
+        font-size: 35px;
     }
     .comissoes .texto-esq p{
-        font-size: 14px;
+        font-size: 13px;
     }
     .comissoes .texto-dir p{
-        font-size: 14px;
+        font-size: 13px;
+    }
+  }
+  @media (max-width: 576.9px){
+    .comissoes .imagem-dir img{
+        width: 214px;
+        height: 159px;
+        border-radius: 20px;
+    }
+    .comissoes .imagem-esq img{
+        width: 214px;
+        height: 159px;
+        border-radius: 20px;
+    }
+    .comissoes .texto-esq h2{
+        font-size: 35px;
+    }
+    .comissoes .texto-dir h2{
+        font-size: 35px;
+    }
+    .comissoes .texto-esq p{
+        font-size: 11px;
+    }
+    .comissoes .texto-dir p{
+        font-size: 11px;
     }
   }
 

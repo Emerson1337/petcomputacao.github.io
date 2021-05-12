@@ -9,6 +9,7 @@ html, body {
   letter-spacing: 0em;
   text-align: left;
   scroll-behavior: smooth;
+  overflow-x: hidden
 }
 a {
   text-decoration: none;

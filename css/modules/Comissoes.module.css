@@ -23,7 +23,7 @@
     font-family: 'Red Hat Text', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 50px;
     color: white;
 
 }
@@ -48,6 +48,8 @@
     width: 50%;
     float: right;
     text-align: left;
+    text-align: justify;
+    line-height: normal;
     margin-left: 20px;
 }
 
@@ -85,8 +87,10 @@
 .comissoes .texto-esq{
     width: 50%;
     float: left;
+    line-height: normal;
     text-align: left;
-    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
 }
 .comissoes .texto-esq h2{
     font-family: 'Red Hat Text', sans-serif;
@@ -137,6 +141,11 @@
         height: 198px;
         border-radius: 30px;
     }
+    .imagem-esq-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .comissoes .texto-esq h2{
         font-size: 35px;
     }
@@ -154,7 +163,7 @@
     .comissoes .imagem-dir img{
         width: 214px;
         height: 159px;
-        border-radius: 20px;
+        border-radius: 15px;
     }
     .comissoes .imagem-esq img{
         width: 214px;
@@ -166,6 +175,41 @@
     }
     .comissoes .texto-dir h2{
         font-size: 35px;
+    }
+    .comissoes .texto-esq p{
+        font-size: 13px;
+    }
+    .comissoes .texto-dir p{
+        font-size: 13px;
+    }
+  }
+  @media (max-width: 450.9px){
+    .comissoes .imagem-dir img{
+        width: 171px;
+        height: 127px;
+        border-radius: 15px;
+    }
+    .comissoes .imagem-esq img{
+        width: 171px;
+        height: 127px;
+        border-radius: 10px;
+    }
+    .imagem-esq-box{
+        display: initial;
+        justify-content: center;
+        align-items: center;
+    }
+    .comissoes .texto-dir{
+        margin-left: 10px;
+    }
+    .comissoes .texto-esq{
+        margin-right: 10px;
+    }
+    .comissoes .texto-esq h2{
+        font-size: 25px;
+    }
+    .comissoes .texto-dir h2{
+        font-size: 25px;
     }
     .comissoes .texto-esq p{
         font-size: 11px;

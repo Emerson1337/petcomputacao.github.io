@@ -9,12 +9,12 @@
   color: #FFFFFF;
 }
 .contact:hover {
+  color: #342F56;
   background: #eeecff;
-  color: black;
 }
 
 .contact a:hover {
-  color: black;
+  color: #342F56;
 }
 .bannerHome{
   display: flex;
